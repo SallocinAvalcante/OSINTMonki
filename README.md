@@ -37,6 +37,11 @@ O OSINTMonki não é um scanner de vulnerabilidades. O foco é mapeamento de sup
 
 Vídeos de uso disponíveis em [`/evidence`](./evidence/).
 
+
+
+
+
+
 ---
 
 ## 🚀 Como usar
@@ -123,7 +128,7 @@ Input (hash ou endereço) → Detecção de tipo → Connector
 
 ## ⚠️ Limitações conhecidas
 
-- Dependência de disponibilidade de APIs externas (crt.sh instável em alvos grandes)
+- Pipelines dependentes de fontes externas. Multiplos providers, se todos estiverem indisponiveis simultaneamente(casos raros), pode retornar sem dados na etapa
 - Fingerprint baseado em regras, sem análise profunda de comportamento
 - Self-transfer heuristic pode gerar falso positivo em transações de exchange com alto volume de outputs
 - Execução sequencial, sem paralelismo
