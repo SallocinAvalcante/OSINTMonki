@@ -1,0 +1,142 @@
+# =========================
+
+# PYTHON
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+
+venv/
+.env/
+.venv/
+
+# =========================
+
+# ENV / CONFIG SENSÍVEL
+
+# =========================
+
+.env
+.env.*
+config.yaml
+config.yml
+secrets.yaml
+secrets.yml
+
+# =========================
+
+# LOGS
+
+# =========================
+
+*.log
+logs/
+
+# =========================
+
+# REPORTS (gerados pela ferramenta)
+
+# =========================
+
+reports/
+*.txt
+
+# =========================
+
+# CACHE / TEMP
+
+# =========================
+
+*.cache
+.cache/
+tmp/
+temp/
+
+# =========================
+
+# IDEs / EDITORES
+
+# =========================
+
+# VSCode
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Sublime / outros
+
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+
+# SISTEMA OPERACIONAL
+
+# =========================
+
+# Windows
+
+Thumbs.db
+desktop.ini
+
+# macOS
+
+.DS_Store
+
+# Linux
+
+*~
+
+# =========================
+
+# JUPYTER (caso use testes)
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# BUILD / DIST
+
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+# =========================
+
+# COVERAGE / TESTS
+
+# =========================
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+
+# API KEYS / TOKENS (EXTRA SEGURANÇA)
+
+# =========================
+
+*.pem
+*.key
+*.crt
+
+# =========================
+
+# OUTPUTS ESPECÍFICOS DO PROJETO
+
+# =========================
+
+output/
+exports/
