@@ -137,7 +137,7 @@ Input (hash ou endereço) → Detecção de tipo → Connector
 
 ## 🛣️ Roadmap
 
-- Refinar origin discovery e reduzir falsos positivos
+- Refinar origin discovery 
 - Melhorar engine de fingerprint
 - Paralelismo (threading/async)
 - Expansão de blockchain intelligence (graph expansion, wallet clustering)
