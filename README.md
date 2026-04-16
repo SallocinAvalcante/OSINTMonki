@@ -35,6 +35,14 @@ O OSINTMonki não é um scanner de vulnerabilidades. O foco é mapeamento de sup
 
 ## 🎥 Demonstração
 
+
+**Video do modulo de Dominio em prática**
+https://github.com/user-attachments/assets/ffeeff9b-1917-4179-ac0c-4ddeef160d15
+
+**Video do modulo de analise de TX em prática**
+https://github.com/user-attachments/assets/ff6d2adb-bcc6-477e-a178-9c3cfbb38a84
+
+**Onde ver as evidencias completas**
 Vídeos de uso disponíveis em [`/evidence`](./evidence/).
 
 
