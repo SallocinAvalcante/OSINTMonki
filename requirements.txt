@@ -1,0 +1,14 @@
+requests==2.31.0
+beautifulsoup4==4.12.3
+python-dotenv==1.0.1
+PyYAML==6.0.2
+
+# parsing e utilidades
+lxml==5.2.1
+
+# opcional (melhor performance requests / compatibilidade)
+urllib3==2.2.1
+certifi==2024.2.2
+
+# opcional (evitar problema que você teve)
+charset-normalizer==3.3.2

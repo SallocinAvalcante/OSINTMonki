@@ -1,0 +1,19 @@
+blockchain:
+  default_provider:
+    bitcoin: blockstream
+    ethereum: etherscan
+
+  fallback_provider:
+    bitcoin: blockchair
+    ethereum: blockchair
+
+  supported_chains:
+    - bitcoin
+    - ethereum
+
+api_keys:
+  blockchair: ".env.BLOCKCHAIR_API_KEY"
+  etherscan: ".env.ETHERSCAN_API_KEY"
+
+settings:
+  timeout: 10
